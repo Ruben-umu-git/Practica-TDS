@@ -34,7 +34,7 @@ public class GastoTest extends TestCase {
         
         gasto.setCantidad(12.50);
         gasto.setConcepto("Cine y palomitas");
-
+ 
         assertEquals(12.50, gasto.getCantidad());
         assertEquals("Cine y palomitas", gasto.getConcepto());
     }
